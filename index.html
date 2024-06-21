@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JH COLOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" align="center">
+    <main>
+        <h3 class="h1">
+        JH COLOR
+    </h3>
+    <h2 id="l2"> Olá, aqui estão as cores disponiveis.</h2>
+    
+    </main>
+    <table   border="1" align="center" >
+        <tr>
+            <td id="b1">AZUL</td>
+            <td id="b6">ROXO</td>
+        </tr>
+            <td id="b2">VERMELHO</td>
+            <td id="b8">VERDE</td>
+        </tr>
+            <td id="b3">ROSA</td>
+            <td id="b9">MARROM</td>
+        </tr>
+            <td id="b5">LARANJA</td>
+            <td id="b10">CINZA</td>
+        </tr>
+    </table>
+    
+    <h2 align="center">CLIQUE NO BOTÃO PARA VISUALIZAR A COR PELO O FUNDO DA PAREDE ABAIXO:</h2>
+    <img id="j1" src="screenshot-of-papel-de-pGUFarede-textura-de-madeira-mod-01 (2).png" alt="">
+    <div> 
+    <button id="b1" onclick="bt1()">AZUL</button> 
+    <button id="b2" onclick="bt2()">VERMELHO</button>
+    <button id="b3" onclick="bt4()">ROSA</button> 
+    <button id="b8" onclick="bt8()">VERDE</button>
+    <button id="b5" onclick="bt5()">LARANJA</button> 
+    <button id="b6" onclick="bt6()">ROXO</button>
+    <button id="b9" onclick="bt9()">MARROM</button>
+    <button id="b10" onclick="bt10()">CINZA</button>
+    <br>
+    <button id="b11" onclick="bt11()">VOLTAR AO NORMAL</button>
+    </div>
+    <script>
+        function bt1(){
+            document.getElementById('j1').style.backgroundColor = "blue"
+        }
+        function bt2(){
+            document.getElementById('j1').style.backgroundColor = "red"
+        }
+        function bt4(){
+            document.getElementById('j1').style.backgroundColor = "rgb(255, 6, 159)"
+        }
+        function bt5(){
+            document.getElementById('j1').style.backgroundColor = "rgb(255, 81, 0)"
+        }
+        function bt6(){
+            document.getElementById('j1').style.backgroundColor = "purple"
+        }
+        function bt8(){
+            document.getElementById('j1').style.backgroundColor = "green"
+        }
+        function bt9(){
+            document.getElementById('j1').style.backgroundColor = "	#8B4513"
+        }
+        function bt10(){
+            document.getElementById('j1').style.backgroundColor = "rgb(70, 70, 70)"
+        }
+        function bt11(){
+            document.getElementById('j1').style.backgroundColor = "white"
+        }
+  
+        let n = prompt("Digite seu nome: ")
+alert("Seja bem vindo a empresa JH COLOR: " +n+", Esperamos que goste do nosso trabalho")
+    </script>
+    <footer id="f1">
+        <h4>Aqui temos algumas informações sobre nossa empresa.</h4>
+        <p >
+            ALUNOS: João pedro e Heloise
+            EMAIL: jhcolor@gmail.com.br <br>
+             NUMERO PARA CONTATO:(88)9684-2505 <br>
+            LOCALIZAÇÂO: Rua Joaquin cabó N°281 <br>
+    </p>
+    </footer>
+    
+</body>
+</html>
